@@ -1,6 +1,6 @@
 var Requete = new XMLHttpRequest();
 var cherche = document.getElementById('recherche');
-var url ="./Traitements/Traitement_1.php?valeur=$_GET['valeur']";
+var url ="./Traitements/Traitement_1.php?valeur=$_GET['valeur']"+$tableau;
 Requete.open('GET', url , true);
 
 Requete.onreadystatechange = function ()

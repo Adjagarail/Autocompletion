@@ -21,5 +21,4 @@ while($donnee = $requete->fetch())
 
     // Conversion du tableau du tableau au format json
     echo json_encode($tableau); 
-        header('location:../index.php');
 ?>
